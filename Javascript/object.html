@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JavaScript Objects </h3>
+    <p id = "demo"></p>
+    <hr>
+
+    <script>
+        // Create an Object
+       const car = {type: "Flat", model: "500", color: "white"};
+
+       //Display some data from the object
+       document.getElementById("demo").innerHTML = "The car type is " + car.type;
+
+    </script>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JavaScript Objects </h3>
+    <p>An object method is a function definition, stored as a property value. </p>
+
+    <p id = "demo1"></p>
+    <hr>
+
+    <script>
+        // Create an Object
+       const person = {
+        firstname: "Natasha",
+        lastname: "Callula",
+        id: 12345,
+        fullName: function() {
+            return this.firstname + " " + this.lastname;
+        }
+    };
+
+       //Display some data from the object
+       document.getElementById("demo1").innerHTML = person.fullName();
+
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> Tugas Objects </h3>
+    <hr>
+
+    <script>
+        // Create an Object
+       const persons = {
+        firstname: "John",
+        lastname: "Doe"
+    };
+
+       //Alert John
+       alert(persons.firstname);
+
+    </script>
+    </body>
+</html>

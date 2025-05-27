@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> The if Statement </h3>
+    <p id = "demo"> Good Evening!</p>
+    <hr>
+
+    <script>
+        if (new Date().getHours() < 18){
+            document.getElementById("demo").innerHTML = "Good day!";
+        }
+    </script>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> The Else Statement </h3>
+    <p id = "demo1"></p>
+    <hr>
+
+    <script>
+        const hour = new Date().getHours();
+        let greeting;
+        if (hour < 18) {
+            greeting = "Good day";
+        } else {
+            greeting = "Good Evening";
+        }
+
+        document.getElementById("demo1").innerHTML = greeting;
+
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> The Else If Statement </h3>
+    <p id = "demo2"></p>
+    <hr>
+
+    <script>
+        const time = new Date().getHours();
+        let greetings;
+        if (time < 18) {
+            greetings = "Good Morning";
+        } else if (time < 20 ) {
+            greetings = "Good Day";
+        } else {
+            greetings = "Good Evening";
+        }
+        
+
+        document.getElementById("demo2").innerHTML = greetings;
+
+    </script>
+    </body>
+</html>
+
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> Tugas Conditions </h3>
+    <p id = "demo3"></p>
+    <hr>
+
+    <script>
+        let x = Math.floor (Math.random() *100) + 1;
+        let y = Math.floor (Math.random() *100) + 1;  
+
+        let Hasil;
+        if (x > y) {
+            Hasil = "Horee Saya bisa!";
+        } else if (x < y ) {
+            Hasil = "Ayo, Coba lagi";
+        } else {
+            Hasil = "Selamat, Hasil sama";
+        }
+
+        document.getElementById("demo3").innerHTML = 
+        "Nilai x: " +  x + "<br>" +
+        "Nilai y: " +  y + "<br>" +
+        Hasil;
+
+    </script>
+    </body>
+</html>
+

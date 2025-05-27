@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+    <h3> JS Dynamic Types </h3>
+    <p id = "demo"></p>
+    <hr>
+
+    <script>
+    let x; // Now x is undefined
+    x = 5; // Now x is a number
+    x = "Natasha" // Now x is a string
+    
+    document.getElementById("demo").innerHTML = x;
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JS String </h3>
+    <p id = "demo1"></p>
+    <hr>
+
+    <script>
+        let answer1 = "It's alright";
+        let answer2 = "She is called 'Natasha'";
+        let answer3 = 'She is called "Natasha"';
+    
+    document.getElementById("demo1").innerHTML =
+    answer1 + "<br>" +
+    answer2 + "<br>" +
+    answer3;
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JS Number </h3>
+    <p id = "demo2"></p>
+    <hr>
+
+    <script>
+        let x1 = 34.00;
+        let x2 = 34;
+        let x3 = 3.14;
+    
+    document.getElementById("demo2").innerHTML =
+    x1 + "<br>" + x2 + "<br>" + x3;
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JS Boolean </h3>
+    <p id = "demo3"></p>
+    <hr>
+
+    <script>
+        let a = 5;
+        let b = 5;
+        let c = 6;
+    
+    document.getElementById("demo3").innerHTML =
+    (a == b ) + "<br>" + (a == c);
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JS Array </h3>
+    <p id = "demo4"></p>
+    <hr>
+
+    <script>
+       const cars = ["Mazda", "Kijang", "Toyota"];
+    
+    document.getElementById("demo4").innerHTML = cars[0];
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html lang="en">
+    <body>
+ 
+    <h3> JS Object </h3>
+    <p id = "demo5"></p>
+    <hr>
+
+    <script>
+       const persons = {
+        firstname : "Natasha",
+        lastname : "Callula",
+        age : 25,
+        eyecolor : "brown"
+       };
+
+    document.getElementById("demo5").innerHTML =
+    persons.firstname + " is " + persons.age + " years old.";
+
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+ 
+    <h3> JS TypeOf </h3>
+    <p id = "demo6"></p>
+    <hr>
+
+    <script>
+        document.getElementById("demo6").innerHTML = 
+        typeof "" + "<br>" +
+        typeof "Natasha" + "<br>" +
+        typeof "Natasha Callula";
+
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+ 
+    <h3>JS undefined </h3>
+    <p id = "demo7"></p>
+    <hr>
+
+    <script>
+        let car;
+        document.getElementById("demo7").innerHTML = 
+        car + "<br>" + typeof car;
+
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+ 
+    <h3>JS null </h3>
+    <p id = "demo8"></p>
+    <hr>
+
+    <script>
+        let bus = "";
+        document.getElementById("demo8").innerHTML =
+        "The value is: " +
+        bus + "<br>" +
+        "The type is:" + typeof bus;
+
+    </script>
+    </body>
+</html>
+
+<!DOCTYPE html>
+<html>
+    <body>
+ 
+    <h3> JS Tugas </h3>
+    <p id = "tugas"></p>
+    <hr>
+
+    <script>
+        let length = 16;
+        let namaakhir = "Johnson";
+        const q = {
+            namaawal: "John",
+            namatengah: "Doe"
+        };
+
+        document.getElementById("tugas").innerHTML = 
+        typeof length + "<br>" +
+        typeof namaakhir + "<br>" +
+        typeof q;
+
+    </script>
+    </body>
+</html>
